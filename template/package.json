@@ -1,0 +1,32 @@
+{
+    "name": "",
+    "version": "0.0.1",
+    "description": "",
+    "scripts": {
+        "dev": "webpack-dev-server --inline --color --host 0.0.0.0 --disable-host-check --config build/webpack.dev.conf.js",
+        "prod": "cross-env NODE_ENV=production webpack --process --color --config build/webpack.prod.conf.js",
+        "analyzer": "webpack --config ./build/webpack.prod.conf.js --profile --json > stats.json && webpack-bundle-analyzer stats.json -m static",
+        "lint": "eslint --ext .js,.ts,tsx src",
+        "lintfix": "eslint --fix --ext .js,.ts,tsx src"
+    },
+    "keywords": [
+        "react",
+        "build",
+        "ZA"
+    ],
+    "author": "ZAFE",
+    "license": "MIT",
+    "devDependencies": {
+        "@za-build/project-react": "^0.0.1"
+    },
+    "dependencies": {
+        "react": "17.0.0",
+        "react-dom": "16.10.2",
+        "core-js": "3.6.5"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ]
+}

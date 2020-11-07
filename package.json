@@ -1,0 +1,28 @@
+{
+  "name": "@za-cli/project-react",
+  "version": "0.0.1",
+  "description": "生成react项目命令",
+  "preferGlobal": true,
+  "link": true,
+  "bin": {
+    "za-init-react": "./bin/init.js"
+  },
+  "files": [
+    "bin",
+    "template",
+    "package.json",
+    ".gitignore",
+    "readme.md"
+  ],
+  "author": "chenjianfang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenjianfang/za-cli-react-ts"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.3",
+    "shelljs": "^0.8.4"
+  }
+}
