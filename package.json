@@ -1,6 +1,6 @@
 {
   "name": "@za-cli/project-react",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "生成react项目命令",
   "preferGlobal": true,
   "link": true,
