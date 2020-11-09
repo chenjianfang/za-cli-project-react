@@ -17,7 +17,7 @@
     "author": "ZAFE",
     "license": "MIT",
     "devDependencies": {
-        "@za-build/project-react": "^0.0.6"
+        "@za-build/project-react": "^0.0.7"
     },
     "dependencies": {
         "react": "17.0.0",
